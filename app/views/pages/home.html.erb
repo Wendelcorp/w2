@@ -1,0 +1,9 @@
+<%= content_tag :div,
+  id: "hello-react",
+  data: {
+    titles: @titles
+}.to_json do %>
+<% end %>
+
+
+<%= javascript_pack_tag 'hello_react' %>
